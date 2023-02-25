@@ -1,0 +1,73 @@
+.header-container{
+    height: 150px;
+    background-image: linear-gradient(to top, #fff 20%, rgba(105, 90, 166, 0.20) 70%, rgba(105, 90, 166, 0.8) 100%),url(../img/banner/header.jpg);
+}
+.nav-link{
+    color: #000;
+}
+/* Css for portfolio */
+.portfolio-container {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.portfolio {
+    width: 80%;
+    margin: auto;
+}
+
+.portfolio-header {
+    text-align: center;
+}
+.portfolio-header p{
+    margin-top: 50px;
+}
+
+.portfolio-header h1 {
+    font-size: 40px;
+    margin:8px 0px 50px 0px;
+}
+
+.portfolio-content {
+    width: 24%;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.portfolio-image img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-title {
+    width: 70%;
+    display: inline-block;
+}
+
+.portfolio-title h1,
+.portfolio-title p {
+    padding: 10px;
+}
+
+.portfolio-icon {
+    width: 20%;
+    padding: 10px;
+    font-size: 25px;
+    display: inline-block;
+    color: green;
+}
+
+.portfolio-icon a {
+    padding: 10px;
+    font-size: 25px;
+    display: inline-block;
+    color: rgb(62, 66, 62);
+}
+
+.portfolio-icon a:hover {
+    font-size: 25px;
+    display: inline-block;
+    color: green;
+}
