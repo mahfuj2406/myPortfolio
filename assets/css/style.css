@@ -1,0 +1,243 @@
+
+
+.banner {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    width: 525px;
+    color: #7B7AB3;
+}
+
+.banner h2 {
+    width: 525px;
+    font-size: 65px;
+    color: #000;
+}
+
+.banner p {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+    font-size: 24px;
+    letter-spacing: 10px;
+    line-height: 36px;
+}
+
+.header-btn,.newsletter-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 1px solid #40248B;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #40248B;
+    background-color: #fff;
+    display: inline-block;
+}
+.newsletter-btn{
+    margin-left: 10px;
+}
+.header-btn:hover ,.newsletter-btn:hover{
+    color: #fff;
+    background-color: #40248B;
+    border: 1px solid #fff;
+}
+
+/* feature section */
+.feature-container {
+    height: 720px;
+}
+
+.feature {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.feature-content {
+    position: absolute;
+    top: 240px;
+    left: 680px;
+    width: 420px;
+}
+
+.feature-content h1 {
+    font-size: 40px;
+}
+
+.feature-content p {
+    font-size: 16px;
+    margin-top: 24px;
+    line-height: 26px;
+}
+
+.feature-check {
+    font-size: 20px;
+    color: green;
+    margin-right: 10px;
+
+}
+
+.feature-list p {
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* My plan section start */
+.myWork-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.portfolio-header p{
+    margin-top: 50px;
+}
+.myWork-container h1,
+.portfolio-header h1 {
+    font-size: 40px;
+    margin:8px 0px 50px 0px;
+}
+.myWork-container{
+    margin-top: 50px;
+}
+.myWork {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myWork-content h2 {
+    font-size: 30px;
+}
+
+.myWork-content p {
+    font-size: 25px;
+}
+
+.myWork-content img {
+    height: 90px;
+    width: 90px;
+}
+
+
+/* hire section start */
+.hire {
+    width: 460px;
+    height: 250px;
+    font-size: 40px;
+}
+
+.hire-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.hire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 74%;
+    height: 100%;
+    margin: auto;
+    padding: 60px 65px;
+    background-image: linear-gradient(to right, rgba(117, 19, 93, 0.73), rgba(245, 246, 252, 0.52)),
+        url('../img/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.hire h1 {
+    width: 450px;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.hire a {
+    width: max-content;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 35px;
+    color: #40248B;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.hire a:hover {
+    background-color: #40248B;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* Css for portfolio */
+.portfolio-container {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.portfolio {
+    width: 80%;
+    margin: auto;
+}
+
+.portfolio-header {
+    text-align: center;
+}
+
+.portfolio-content {
+    width: 24%;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.portfolio-image img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-title {
+    width: 70%;
+    display: inline-block;
+}
+
+.portfolio-title h1,
+.portfolio-title p {
+    padding: 10px;
+}
+
+.portfolio-icon {
+    width: 20%;
+    padding: 10px;
+    font-size: 25px;
+    display: inline-block;
+    color: green;
+}
+
+.portfolio-icon a {
+    padding: 10px;
+    font-size: 25px;
+    display: inline-block;
+    color: rgb(62, 66, 62);
+}
+
+.portfolio-icon a:hover {
+    font-size: 25px;
+    display: inline-block;
+    color: green;
+}
+
