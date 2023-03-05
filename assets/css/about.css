@@ -1,0 +1,73 @@
+.header-container{
+    height: 150px;
+    background-image: linear-gradient(to top, #fff 20%, rgba(105, 90, 166, 0.20) 70%, rgba(105, 90, 166, 0.8) 100%),url(../img/banner/header.jpg);
+}
+.nav-link{
+    color: #000;
+}
+.about-container{
+    width: 80%;
+    margin: auto;
+}
+.about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.about-content h1{
+    font-size: 36px;
+    color: #695AA6;
+}
+.about-content p{
+    width: 600px;
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: justify;
+    color: #989898;
+}
+.contact-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-me{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.contact-me p{
+    font-size: 18px;
+    color: #000;
+}
+.contact-me h1{
+    font-size: 36px;
+    color: #695AA6;
+    margin-bottom: 50px;
+}
+.input-item{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border:1px solid #695AA6;
+    border-radius: 5px;
+}
+.text-input{
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    border:1px solid #695AA6;
+    border-radius: 5px;
+}
+.form button, .download-btn{
+    margin: 10px;
+    padding: 10px 30px;
+    border:1px solid #695AA6;
+    border-radius: 5px;
+    background-color: #695aa680;
+}
+.form button:hover, .download-btn:hover{
+    background-color: #695AA6;
+    color: #fff;
+}
